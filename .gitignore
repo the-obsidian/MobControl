@@ -1,13 +1,5 @@
-# Java
-target
-.classpath
-.project
-.settings/
-
-# IntelliJ
 .idea/
 *.iml
+/target
+dependency-reduced-pom.xml
 
-# MacOS
-.DS_Store
-/bin/
