@@ -1,0 +1,52 @@
+age-cap:
+  baby: 300
+  breed: 300
+
+buff:
+  drops: 0
+  shear-drops: 0
+  disabled-items:
+  - 329
+
+limits:
+  blaze: 4
+  cave_spider: 4
+  chicken: 4
+  cow: 4
+  creeper: 4
+  enderman: 4
+  ghast: 1
+  guardian: 4
+  mushroom_cow: 4
+  ocelot: 4
+  pig_zombie: 4
+  pig: 4
+  rabbit: 4
+  sheepblack: 2
+  sheepblue: 2
+  sheepbrown: 2
+  sheepcyan: 2
+  sheepgray: 2
+  sheepgreen: 2
+  sheeplight_blue: 2
+  sheeplime: 2
+  sheepmagenta: 2
+  sheeporange: 2
+  sheeppink: 2
+  sheeppurple: 2
+  sheepred: 2
+  sheepsilver: 2
+  sheepwhite: 4
+  sheepyellow: 2
+  silverfish: 6
+  skeleton: 4
+  spider: 4
+  wolf: 4
+  zombie: 1
+
+settings:
+  buff-drops: 0
+  debug: false
+  limit-natural-spawn: false
+  limit-spawner-spawn: false
+  spawn-limited: []

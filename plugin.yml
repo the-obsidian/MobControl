@@ -1,0 +1,20 @@
+name: MobControl
+version: ${project.version}
+description: ${project.description}
+
+author: Jacob Gillespie
+website: ${project.url}
+
+main: gg.obsidian.mobcontrol.MobControl
+
+commands:
+  mobcontrol:
+    description: Displays information about MobControl
+
+permissions:
+  mobcontrol.cull:
+    description: Access to the cull command
+    default: op
+  mobcontrol.check:
+    description: Access to the check command
+    default: op
