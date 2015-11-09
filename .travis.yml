@@ -1,0 +1,13 @@
+language: java
+jdk:
+- oraclejdk8
+
+deploy:
+  provider: releases
+  api_key:
+    secure: M0OHfHaethFqK724UssSbB48yUoJFm+RfNqzNknBsJWrMpyelt/veIOF1zcZfVmOEpdG4SfMfvHbMSkNaK4DHrK7XPizXLiPCuWnkrsO34M5AkAVifO9q8uCLWSQgxpt/jpfiPJP0svKQM5iLMGaNSUIXh91At9ClFSuWmy0boiG6ZaXZ5AHrEsj2JIsZyv5JTxHYkmdWh1Ojkk/50+WFF/JWngiB9gRC8Bl0BhFhXNsabE6wyBbq4+KF6omgDBDmfp3qm7cd/TcP0A4h29KOmUNEN6N1ijurTVi7wRI93AhWCOWRzotJLyiKDC/67AOssjkUXlfQ7OrYETw8Ou8Ht9RTFZ6YpFGEqyM2KslB69q7rf7AAj4Maz0OGCj/TTPwbemGG7PPYFQpLdlr/8UtkEU7RBs7245wF4RD6ndymzhOprkaE2XlE8EnxJwGyU0J1MRA0j5uTqYrmRtJE/8NsT4TVVsj/4sAPvxR/3GEIUMR9/7uajuWpN0X1y7amAKbWc4eE5NklMW7azE7NXfy427ryuuDt7PqG1JAJLQug8Xgte8Eavm0rPxXXuLrKfTfp1xc7Zw0COJHBeRxRPLPSTYxMfs2mfg7egZ0ReromMSNWkvtV0kmDQqfqi+C33nn+5yBTUf9sxvi9y8M4VesiIU8Pi2riQCbLc752WmYuE=
+  file: target/MobControl-*.jar
+  file_glob: true
+  on:
+    repo: the-obsidian/MobControl
+    tags: true
