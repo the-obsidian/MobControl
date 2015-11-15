@@ -5,6 +5,7 @@ age-cap:
 buff:
   drops: 0
   shear-drops: 0
+  exp-multiplier: 1
   disabled-items:
   - 329
 

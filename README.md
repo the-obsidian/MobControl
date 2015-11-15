@@ -25,6 +25,7 @@ age-cap:
 buff:
   drops: 0
   shear-drops: 0
+  exp-multiplier: 1
   disabled-items:
   - 329
 
@@ -85,7 +86,14 @@ settings:
 ## Features
 
 * Limits mobs per chunk
+* Buffs drops and exp
 
-## Upcoming Features
+## Changelog
 
-* Better mob XP drop adjustments
+### 1.1.0
+
+* Added ability to buff exp
+
+### 1.0.0
+
+* Initial version

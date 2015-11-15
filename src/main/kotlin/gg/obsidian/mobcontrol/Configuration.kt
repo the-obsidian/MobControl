@@ -16,6 +16,7 @@ class Configuration(val plugin: MobControl) {
     var LIMIT_SPAWNER_SPAWN: Boolean = false
     var BUFF_DROPS: Int = 0
     var BUFF_SHEAR_DROPS: Int = 0
+    var BUFF_EXP_MULTIPLIER: Int = 1
     var BUFF_DISABLED_ITEMS: List<Int> = ArrayList<Int>()
 
     var DEBUG: Boolean = false
@@ -55,6 +56,7 @@ class Configuration(val plugin: MobControl) {
         LIMIT_SPAWNER_SPAWN = plugin.getConfig().getBoolean("settings.limit-spawner-spawn")
         BUFF_DROPS = plugin.getConfig().getInt("buff.drops")
         BUFF_SHEAR_DROPS = plugin.getConfig().getInt("buff.shear-drops")
+        BUFF_EXP_MULTIPLIER = plugin.getConfig().getInt("buff.exp-multiplier", 1)
         BUFF_DISABLED_ITEMS = plugin.getConfig().getIntegerList("buff.disabled-items")
 
         DEBUG = plugin.getConfig().getBoolean("settings.debug")
